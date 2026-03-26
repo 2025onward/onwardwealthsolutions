@@ -1,141 +1,1462 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2685.4">
-  <style type="text/css">
-    body {background-color: #0a111e}
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 18.0px 'Helvetica Neue'; color: #ffffff; -webkit-text-stroke: #ffffff}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 9.0px 'Helvetica Neue'; color: #bc993c; -webkit-text-stroke: #bc993c}
-    p.p5 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 10.0px 'Helvetica Neue'; color: #bc993c; -webkit-text-stroke: #bc993c}
-    p.p6 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Helvetica Neue'; color: #ffffff; -webkit-text-stroke: #ffffff; min-height: 15.0px}
-    p.p7 {margin: 0.0px 0.0px 0.0px 0.0px; font: 10.0px 'Helvetica Neue'; color: #bc993c; -webkit-text-stroke: #bc993c}
-    p.p9 {margin: 0.0px 0.0px 50.0px 0.0px; font: 13.0px 'Helvetica Neue'; color: #ffffff; color: rgba(255, 255, 255, 0.6); -webkit-text-stroke: rgba(255, 255, 255, 0.6)}
-    p.p10 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 11.0px 'Helvetica Neue'; color: #0a111e; -webkit-text-stroke: #0a111e; background-color: #bc993c}
-    p.p11 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 11.0px 'Helvetica Neue'; color: #ffffff; -webkit-text-stroke: #ffffff}
-    p.p12 {margin: 0.0px 0.0px 0.0px 0.0px; font: 9.0px 'Helvetica Neue'; color: #ffffff; color: rgba(255, 255, 255, 0.3); -webkit-text-stroke: rgba(255, 255, 255, 0.3); min-height: 11.0px}
-    p.p13 {margin: 0.0px 0.0px 0.0px 0.0px; font: 9.0px 'Helvetica Neue'; color: #ffffff; color: rgba(255, 255, 255, 0.3); -webkit-text-stroke: rgba(255, 255, 255, 0.3)}
-    p.p14 {margin: 0.0px 0.0px 0.0px 0.0px; font: 20.0px 'Helvetica Neue'; color: #ffffff; -webkit-text-stroke: #ffffff}
-    p.p15 {margin: 0.0px 0.0px 0.0px 0.0px; font: 11.0px 'Helvetica Neue'; color: #677c97; -webkit-text-stroke: #677c97}
-    p.p16 {margin: 0.0px 0.0px 0.0px 0.0px; font: 11.0px 'Helvetica Neue'; color: #0a111e; -webkit-text-stroke: #0a111e; background-color: #bc993c}
-    p.p18 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Helvetica Neue'; color: #ffffff; -webkit-text-stroke: #ffffff; background-color: #bc993c; min-height: 15.0px}
-    p.p19 {margin: 0.0px 0.0px 20.0px 0.0px; font: 13.0px 'Helvetica Neue'; color: #ffffff; color: rgba(255, 255, 255, 0.6); -webkit-text-stroke: rgba(255, 255, 255, 0.6)}
-    p.p20 {margin: 0.0px 0.0px 0.0px 0.0px; font: 11.0px 'Helvetica Neue'; color: #0a111e; -webkit-text-stroke: #0a111e}
-    p.p21 {margin: 0.0px 0.0px 28.0px 0.0px; font: 26.0px 'Helvetica Neue'; color: #ffffff; -webkit-text-stroke: #ffffff}
-    p.p22 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 12.0px 'Helvetica Neue'; color: #ffffff; -webkit-text-stroke: #ffffff; background-color: #bc993c; min-height: 15.0px}
-    p.p23 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 12.0px 'Helvetica Neue'; color: #ffffff; -webkit-text-stroke: #ffffff}
-    p.p25 {margin: 0.0px 0.0px 0.0px 0.0px; font: 60.0px 'Helvetica Neue'; color: #bc993c; color: rgba(188, 153, 60, 0.1); -webkit-text-stroke: rgba(188, 153, 60, 0.1)}
-    p.p26 {margin: 0.0px 0.0px 0.0px 0.0px; font: 24.0px 'Helvetica Neue'; color: #ffffff; -webkit-text-stroke: #ffffff}
-    p.p27 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Helvetica Neue'; color: #677c97; -webkit-text-stroke: #677c97}
-    p.p29 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Helvetica Neue'; color: #ffffff; color: rgba(255, 255, 255, 0.5); -webkit-text-stroke: rgba(255, 255, 255, 0.5)}
-    p.p31 {margin: 0.0px 0.0px 0.0px 0.0px; font: 10.0px 'Helvetica Neue'; color: #ffffff; color: rgba(255, 255, 255, 0.25); -webkit-text-stroke: rgba(255, 255, 255, 0.25)}
-    li.li3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 11.0px 'Helvetica Neue'; color: #bc993c; -webkit-text-stroke: #bc993c}
-    li.li4 {margin: 0.0px 0.0px 0.0px 0.0px; font: 11.0px 'Helvetica Neue'; color: #ffffff; color: rgba(255, 255, 255, 0.7); -webkit-text-stroke: rgba(255, 255, 255, 0.7)}
-    li.li29 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Helvetica Neue'; color: #ffffff; color: rgba(255, 255, 255, 0.5); -webkit-text-stroke: rgba(255, 255, 255, 0.5)}
-    span.s1 {font-kerning: none; background-color: rgba(10, 17, 30, 0.92)}
-    span.s2 {background-color: rgba(10, 17, 30, 0.92); -webkit-text-stroke: 0px #000000}
-    span.s3 {font-kerning: none}
-    span.s4 {font-kerning: none; color: #bc993c; -webkit-text-stroke: 0px #bc993c}
-    span.s5 {font-kerning: none; background-color: #0d1734}
-    span.s6 {font: 12.0px 'Helvetica Neue'; font-kerning: none; color: #ffffff; -webkit-text-stroke: 0px #ffffff}
-    span.s7 {font-kerning: none; background-color: #bc993c}
-    span.s8 {font-kerning: none; background-color: #080d17}
-    span.s9 {background-color: #080d17; -webkit-text-stroke: 0px #000000}
-    ul.ul1 {list-style-type: disc}
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Onward Wealth Solutions | Personal Finance Consulting</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --navy: #050f2c;
+    --navy-mid: #0a1a3e;
+    --navy-light: #112356;
+    --gold: #c9a84c;
+    --gold-light: #e2c27d;
+    --gold-pale: #f5e6c0;
+    --cream: #faf6ee;
+    --white: #ffffff;
+    --text-muted: #8a9bbf;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: 'Montserrat', sans-serif;
+    background: var(--navy);
+    color: var(--cream);
+    overflow-x: hidden;
+  }
+
+  /* ─── NOISE TEXTURE OVERLAY ─── */
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+    pointer-events: none;
+    z-index: 0;
+    opacity: 0.4;
+  }
+
+  /* ─── NAV ─── */
+  nav {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.4rem 5%;
+    background: rgba(5, 15, 44, 0.92);
+    backdrop-filter: blur(16px);
+    border-bottom: 1px solid rgba(201, 168, 76, 0.15);
+    transition: all 0.3s ease;
+  }
+
+  .logo {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--gold-light);
+    letter-spacing: 0.05em;
+    text-decoration: none;
+  }
+
+  .logo span {
+    color: var(--cream);
+    font-style: italic;
+    font-weight: 300;
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 2.5rem;
+    list-style: none;
+  }
+
+  .nav-links a {
+    color: var(--text-muted);
+    text-decoration: none;
+    font-size: 0.72rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: color 0.3s;
+    cursor: pointer;
+  }
+
+  .nav-links a:hover, .nav-links a.active {
+    color: var(--gold);
+  }
+
+  .nav-cta {
+    background: transparent;
+    border: 1px solid var(--gold);
+    color: var(--gold);
+    padding: 0.55rem 1.4rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.68rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+
+  .nav-cta:hover {
+    background: var(--gold);
+    color: var(--navy);
+  }
+
+  /* ─── PAGES ─── */
+  .page { display: none; min-height: 100vh; padding-top: 80px; position: relative; z-index: 1; }
+  .page.active { display: block; }
+
+  /* ─── HERO ─── */
+  .hero {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 0 5%;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .hero::before {
+    content: '';
+    position: absolute;
+    right: -10%;
+    top: -20%;
+    width: 70%;
+    height: 140%;
+    background: radial-gradient(ellipse at center, rgba(201,168,76,0.07) 0%, transparent 70%);
+    pointer-events: none;
+  }
+
+  .hero-content { padding: 4rem 0; animation: fadeUp 1s ease both; }
+
+  .hero-eyebrow {
+    display: inline-block;
+    font-size: 0.65rem;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--gold);
+    border-left: 2px solid var(--gold);
+    padding-left: 1rem;
+    margin-bottom: 2rem;
+    animation: fadeUp 1s ease 0.1s both;
+  }
+
+  .hero h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: clamp(3rem, 5vw, 5.5rem);
+    font-weight: 300;
+    line-height: 1.1;
+    color: var(--cream);
+    margin-bottom: 1.5rem;
+    animation: fadeUp 1s ease 0.2s both;
+  }
+
+  .hero h1 em {
+    font-style: italic;
+    color: var(--gold-light);
+  }
+
+  .hero-sub {
+    font-size: 0.85rem;
+    line-height: 1.9;
+    color: var(--text-muted);
+    max-width: 480px;
+    margin-bottom: 2.5rem;
+    animation: fadeUp 1s ease 0.3s both;
+    font-weight: 300;
+  }
+
+  .hero-actions {
+    display: flex;
+    gap: 1.2rem;
+    flex-wrap: wrap;
+    animation: fadeUp 1s ease 0.4s both;
+  }
+
+  .btn-primary {
+    background: var(--gold);
+    color: var(--navy);
+    border: none;
+    padding: 0.9rem 2.2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.72rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+
+  .btn-primary:hover {
+    background: var(--gold-light);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 30px rgba(201,168,76,0.3);
+  }
+
+  .btn-outline {
+    background: transparent;
+    color: var(--cream);
+    border: 1px solid rgba(250,246,238,0.3);
+    padding: 0.9rem 2.2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.72rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+
+  .btn-outline:hover {
+    border-color: var(--gold);
+    color: var(--gold);
+  }
+
+  .hero-visual {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    animation: fadeIn 1.2s ease 0.5s both;
+  }
+
+  .hero-emblem {
+    width: 380px;
+    height: 380px;
+    position: relative;
+  }
+
+  .hero-emblem svg {
+    width: 100%;
+    height: 100%;
+  }
+
+  /* Stats row */
+  .hero-stats {
+    display: flex;
+    gap: 0;
+    border-top: 1px solid rgba(201,168,76,0.15);
+    margin-top: 3rem;
+    animation: fadeUp 1s ease 0.5s both;
+  }
+
+  .stat {
+    padding: 1.5rem 2rem 1.5rem 0;
+    margin-right: 2rem;
+    border-right: 1px solid rgba(201,168,76,0.15);
+  }
+
+  .stat:last-child { border-right: none; }
+
+  .stat-num {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2.2rem;
+    color: var(--gold-light);
+    font-weight: 600;
+    line-height: 1;
+  }
+
+  .stat-label {
+    font-size: 0.62rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    margin-top: 0.3rem;
+  }
+
+  /* ─── SECTION SHARED ─── */
+  .section { padding: 5rem 5%; }
+
+  .section-eyebrow {
+    font-size: 0.65rem;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 1rem;
+    display: block;
+  }
+
+  .section-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: clamp(2rem, 3.5vw, 3.2rem);
+    font-weight: 300;
+    line-height: 1.2;
+    color: var(--cream);
+    margin-bottom: 1rem;
+  }
+
+  .section-title em { font-style: italic; color: var(--gold-light); }
+
+  .section-desc {
+    font-size: 0.83rem;
+    line-height: 1.9;
+    color: var(--text-muted);
+    max-width: 600px;
+    font-weight: 300;
+  }
+
+  /* ─── DIVIDER ─── */
+  .gold-divider {
+    width: 60px;
+    height: 1px;
+    background: linear-gradient(90deg, var(--gold), transparent);
+    margin: 1.5rem 0 2rem;
+  }
+
+  /* ─── FEATURES (landing) ─── */
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1px;
+    background: rgba(201,168,76,0.12);
+    margin-top: 4rem;
+  }
+
+  .feature-card {
+    background: var(--navy);
+    padding: 2.5rem;
+    transition: background 0.3s;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .feature-card::before {
+    content: '';
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, var(--gold), transparent);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.4s ease;
+  }
+
+  .feature-card:hover::before { transform: scaleX(1); }
+  .feature-card:hover { background: var(--navy-mid); }
+
+  .feature-icon {
+    width: 44px;
+    height: 44px;
+    margin-bottom: 1.5rem;
+    color: var(--gold);
+  }
+
+  .feature-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.3rem;
+    color: var(--cream);
+    margin-bottom: 0.8rem;
+    font-weight: 400;
+  }
+
+  .feature-text {
+    font-size: 0.78rem;
+    line-height: 1.8;
+    color: var(--text-muted);
+    font-weight: 300;
+  }
+
+  /* ─── TRUST BAND ─── */
+  .trust-band {
+    background: linear-gradient(135deg, var(--navy-light), var(--navy-mid));
+    border-top: 1px solid rgba(201,168,76,0.15);
+    border-bottom: 1px solid rgba(201,168,76,0.15);
+    padding: 3rem 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+
+  .trust-item {
+    text-align: center;
+    flex: 1;
+    min-width: 140px;
+  }
+
+  .trust-num {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2.8rem;
+    color: var(--gold);
+    font-weight: 600;
+    line-height: 1;
+  }
+
+  .trust-label {
+    font-size: 0.62rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    margin-top: 0.4rem;
+  }
+
+  .trust-divider {
+    width: 1px;
+    height: 50px;
+    background: rgba(201,168,76,0.2);
+  }
+
+  /* ─── WHAT WE OFFER ─── */
+  .offer-hero {
+    padding: 5rem 5% 3rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .offer-hero::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 50%;
+    transform: translateX(-50%);
+    width: 600px;
+    height: 300px;
+    background: radial-gradient(ellipse, rgba(201,168,76,0.08) 0%, transparent 70%);
+    pointer-events: none;
+  }
+
+  .services-list {
+    padding: 0 5% 5rem;
+  }
+
+  .service-item {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 4rem;
+    padding: 4rem 0;
+    border-bottom: 1px solid rgba(201,168,76,0.1);
+    align-items: start;
+    transition: all 0.3s;
+  }
+
+  .service-item:last-child { border-bottom: none; }
+
+  .service-left { position: sticky; top: 100px; }
+
+  .service-number {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 5rem;
+    color: rgba(201,168,76,0.1);
+    font-weight: 600;
+    line-height: 1;
+    margin-bottom: -1rem;
+  }
+
+  .service-name {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.8rem;
+    color: var(--gold-light);
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+  }
+
+  .service-tag {
+    font-size: 0.62rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+  }
+
+  .service-right {}
+
+  .service-desc {
+    font-size: 0.85rem;
+    line-height: 2;
+    color: var(--text-muted);
+    margin-bottom: 2rem;
+    font-weight: 300;
+  }
+
+  .service-points {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.8rem;
+    list-style: none;
+  }
+
+  .service-points li {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.7rem;
+    font-size: 0.75rem;
+    color: var(--cream);
+    line-height: 1.5;
+  }
+
+  .service-points li::before {
+    content: '◆';
+    color: var(--gold);
+    font-size: 0.4rem;
+    margin-top: 0.35rem;
+    flex-shrink: 0;
+  }
+
+  /* ─── ABOUT ─── */
+  .about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+    padding: 5rem 5%;
+    align-items: center;
+  }
+
+  .about-visual {
+    position: relative;
+  }
+
+  .about-frame {
+    border: 1px solid rgba(201,168,76,0.2);
+    padding: 3rem;
+    position: relative;
+  }
+
+  .about-frame::before {
+    content: '';
+    position: absolute;
+    top: -8px; left: -8px;
+    right: 8px; bottom: 8px;
+    border: 1px solid rgba(201,168,76,0.08);
+    pointer-events: none;
+  }
+
+  .about-quote {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.5rem;
+    font-style: italic;
+    color: var(--cream);
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+    font-weight: 300;
+  }
+
+  .about-quote-attr {
+    font-size: 0.65rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--gold);
+  }
+
+  .values-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    margin-top: 3rem;
+  }
+
+  .value-card {
+    border-left: 2px solid var(--gold);
+    padding-left: 1.2rem;
+  }
+
+  .value-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.1rem;
+    color: var(--cream);
+    margin-bottom: 0.4rem;
+  }
+
+  .value-text {
+    font-size: 0.74rem;
+    line-height: 1.7;
+    color: var(--text-muted);
+  }
+
+  .team-section {
+    padding: 3rem 5% 5rem;
+  }
+
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-top: 3rem;
+  }
+
+  .team-card {
+    border: 1px solid rgba(201,168,76,0.12);
+    padding: 2rem;
+    text-align: center;
+    transition: all 0.3s;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .team-card::after {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, var(--gold), transparent);
+    transform: scaleX(0);
+    transition: transform 0.4s;
+  }
+
+  .team-card:hover::after { transform: scaleX(1); }
+  .team-card:hover { background: rgba(201,168,76,0.04); }
+
+  .team-avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--navy-light), var(--navy-mid));
+    border: 2px solid rgba(201,168,76,0.3);
+    margin: 0 auto 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.8rem;
+    color: var(--gold);
+  }
+
+  .team-name {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.2rem;
+    color: var(--cream);
+    margin-bottom: 0.3rem;
+  }
+
+  .team-role {
+    font-size: 0.65rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 1rem;
+  }
+
+  .team-bio {
+    font-size: 0.74rem;
+    line-height: 1.7;
+    color: var(--text-muted);
+  }
+
+  /* ─── CONTACT ─── */
+  .contact-layout {
+    display: grid;
+    grid-template-columns: 1fr 1.4fr;
+    gap: 5rem;
+    padding: 5rem 5%;
+    align-items: start;
+  }
+
+  .contact-info-block { }
+
+  .contact-detail {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid rgba(201,168,76,0.1);
+  }
+
+  .contact-detail:last-of-type { border-bottom: none; }
+
+  .contact-icon {
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgba(201,168,76,0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    color: var(--gold);
+  }
+
+  .contact-detail-label {
+    font-size: 0.62rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 0.3rem;
+  }
+
+  .contact-detail-value {
+    font-size: 0.85rem;
+    color: var(--cream);
+    line-height: 1.6;
+  }
+
+  .contact-form {
+    background: rgba(201,168,76,0.03);
+    border: 1px solid rgba(201,168,76,0.12);
+    padding: 3rem;
+  }
+
+  .form-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.8rem;
+    color: var(--cream);
+    margin-bottom: 0.5rem;
+    font-weight: 300;
+  }
+
+  .form-sub {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    margin-bottom: 2rem;
+    line-height: 1.7;
+  }
+
+  .form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.2rem;
+  }
+
+  .form-group {
+    margin-bottom: 1.2rem;
+  }
+
+  .form-label {
+    display: block;
+    font-size: 0.62rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    margin-bottom: 0.5rem;
+  }
+
+  .form-input, .form-select, .form-textarea {
+    width: 100%;
+    background: rgba(255,255,255,0.03);
+    border: 1px solid rgba(201,168,76,0.2);
+    color: var(--cream);
+    padding: 0.85rem 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8rem;
+    outline: none;
+    transition: border-color 0.3s;
+    appearance: none;
+  }
+
+  .form-input:focus, .form-select:focus, .form-textarea:focus {
+    border-color: var(--gold);
+  }
+
+  .form-select { cursor: pointer; }
+  .form-select option { background: var(--navy-mid); }
+
+  .form-textarea {
+    resize: vertical;
+    min-height: 110px;
+    line-height: 1.6;
+  }
+
+  /* ─── FOOTER ─── */
+  footer {
+    background: var(--navy-mid);
+    border-top: 1px solid rgba(201,168,76,0.15);
+    padding: 3rem 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+    position: relative;
+    z-index: 1;
+  }
+
+  .footer-logo {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.3rem;
+    color: var(--gold);
+  }
+
+  .footer-copy {
+    font-size: 0.67rem;
+    color: var(--text-muted);
+    letter-spacing: 0.05em;
+  }
+
+  .footer-links {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+  }
+
+  .footer-links a {
+    font-size: 0.65rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    text-decoration: none;
+    transition: color 0.3s;
+    cursor: pointer;
+  }
+
+  .footer-links a:hover { color: var(--gold); }
+
+  /* ─── CTA BANNER ─── */
+  .cta-banner {
+    background: linear-gradient(135deg, var(--navy-light) 0%, rgba(201,168,76,0.08) 100%);
+    border: 1px solid rgba(201,168,76,0.2);
+    margin: 0 5% 5rem;
+    padding: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+
+  .cta-text h3 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2rem;
+    color: var(--cream);
+    font-weight: 300;
+    margin-bottom: 0.5rem;
+  }
+
+  .cta-text p {
+    font-size: 0.78rem;
+    color: var(--text-muted);
+  }
+
+  /* ─── ANIMATIONS ─── */
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(24px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  @keyframes spin-slow {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+
+  @keyframes spin-slower {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(-360deg); }
+  }
+
+  .ring-outer { animation: spin-slow 40s linear infinite; transform-origin: center; }
+  .ring-inner { animation: spin-slower 28s linear infinite; transform-origin: center; }
+
+  /* ─── RESPONSIVE ─── */
+  @media (max-width: 900px) {
+    .hero { grid-template-columns: 1fr; }
+    .hero-visual { display: none; }
+    .features-grid { grid-template-columns: 1fr; }
+    .about-grid { grid-template-columns: 1fr; }
+    .contact-layout { grid-template-columns: 1fr; }
+    .team-grid { grid-template-columns: 1fr; }
+    .service-item { grid-template-columns: 1fr; gap: 1.5rem; }
+    .service-left { position: static; }
+    .form-row { grid-template-columns: 1fr; }
+    .cta-banner { flex-direction: column; text-align: center; }
+  }
+</style>
 </head>
 <body>
-<p class="p1"><span class="s1">`ONWARD WEALTH</span></p>
-<p class="p2"><span class="s1">SOLUTIONS</span></p>
-<ul class="ul1">
-  <li class="li3"><span class="s2"></span><span class="s1">HOME</span></li>
-  <li class="li4"><span class="s2"></span><span class="s1">ABOUT US</span></li>
-  <li class="li4"><span class="s2"></span><span class="s1">OUR SERVICES</span></li>
-  <li class="li4"><span class="s2"></span><span class="s1">CONTACT</span></li>
-</ul>
-<p class="p5"><span class="s1">SCHEDULE CONSULTATION</span></p>
-<p class="p6"><span class="s3"></span><br></p>
-<p class="p6"><span class="s3"></span><br></p>
-<p class="p7"><span class="s3">FINANCIAL ADVISORY &amp; WEALTH MANAGEMENT</span></p>
-<h1 style="margin: 0.0px 0.0px 32.0px 0.0px; font: 56.0px 'Helvetica Neue'; color: #ffffff; -webkit-text-stroke: #ffffff"><span class="s3">Your Wealth,<br>
-</span><span class="s4">Purposefully</span><span class="s3"><br>
-Directed.</span></h1>
-<p class="p9"><span class="s3">At Onward Wealth Solutions, we partner with discerning individuals and families to craft financial strategies that build lasting legacies — with clarity, discipline, and vision.</span></p>
-<p class="p10"><span class="s3">BEGIN YOUR JOURNEY</span></p>
-<p class="p11"><span class="s3">EXPLORE SERVICES</span></p>
-<p class="p12"><span class="s3"></span><br></p>
-<p class="p13"><span class="s3">SCROLL</span></p>
-<p class="p6"><span class="s3"></span><br></p>
-<p class="p14"><span class="s5">Holistic Planning</span></p>
-<p class="p15"><span class="s5">Comprehensive strategies that align every financial dimension of your life — investments, taxes, estate, and beyond.</span></p>
-<p class="p6"><span class="s3"></span><br></p>
-<p class="p14"><span class="s5">Fiduciary Standard</span></p>
-<p class="p15"><span class="s5">We operate exclusively in your best interest — transparent, unconflicted advice with no hidden incentives.</span></p>
-<p class="p6"><span class="s3"></span><br></p>
-<p class="p14"><span class="s5">Dynamic Management</span></p>
-<p class="p15"><span class="s5">Portfolios that adapt with market conditions and evolve with your life, never static or complacent.</span></p>
-<p class="p6"><span class="s3"></span><br></p>
-<p class="p14"><span class="s5">Dedicated Advisors</span></p>
-<p class="p15"><span class="s5">A seasoned team committed to deep, long-term relationships — your advisor knows your story intimately.</span></p>
-<p class="p16"><span class="s3">WEALTH MANAGEMENT</span><span class="s6"> </span><span class="s3">RETIREMENT PLANNING</span><span class="s6"> </span><span class="s3">ESTATE PLANNING</span><span class="s6"> </span><span class="s3">TAX OPTIMIZATION</span><span class="s6"> </span><span class="s3">PORTFOLIO MANAGEMENT</span><span class="s6"> </span><span class="s3">BUSINESS ADVISORY</span><span class="s6"> </span><span class="s3">RISK MANAGEMENT</span><span class="s6"> </span><span class="s3">LEGACY PLANNING</span><span class="s6"> </span><span class="s3">WEALTH MANAGEMENT</span><span class="s6"> </span><span class="s3">RETIREMENT PLANNING</span><span class="s6"> </span><span class="s3">ESTATE PLANNING</span><span class="s6"> </span><span class="s3">TAX OPTIMIZATION</span><span class="s6"> </span><span class="s3">PORTFOLIO MANAGEMENT</span><span class="s6"> </span><span class="s3">BUSINESS ADVISORY</span><span class="s6"> </span><span class="s3">RISK MANAGEMENT</span><span class="s6"> </span><span class="s3">LEGACY PLANNING</span></p>
-<p class="p7"><span class="s3">OUR PHILOSOPHY</span></p>
-<h2 style="margin: 0.0px 0.0px 28.0px 0.0px; font: 36.0px 'Helvetica Neue'; color: #ffffff; -webkit-text-stroke: #ffffff"><span class="s3">Wealth is more than<br>
-a </span><span class="s4">number</span><span class="s3">.</span></h2>
-<p class="p18"><span class="s3"></span><br></p>
-<p class="p19"><span class="s3">We believe true financial success means living the life you envision — not just accumulating assets. Our advisors take time to understand what wealth means to you, then build a precise roadmap to get there.</span></p>
-<p class="p19"><span class="s3">With over two decades of experience guiding affluent families and forward-thinking professionals, Onward Wealth Solutions brings institutional-grade sophistication to deeply personal service.</span></p>
-<p class="p20"><span class="s7">MEET OUR TEAM</span></p>
-<p class="p21"><span class="s5">"The goal isn't simply to grow wealth — it's to ensure that every dollar serves a purpose aligned with your deepest priorities."</span></p>
-<p class="p7"><span class="s5">— MARCUS D. ELLISON, FOUNDER &amp; MANAGING DIRECTOR</span></p>
-<p class="p22"><span class="s3"></span><br></p>
-<p class="p23"><span class="s3">What We Offer</span></p>
-<p class="p22"><span class="s3"></span><br></p>
-<h2 style="margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 36.0px 'Helvetica Neue'; color: #ffffff; -webkit-text-stroke: #ffffff"><span class="s3">Comprehensive </span><span class="s4">Services</span></h2>
-<p class="p22"><span class="s3"></span><br></p>
-<p class="p25"><span class="s5">01</span></p>
-<p class="p6"><span class="s3"></span><br></p>
-<p class="p26"><span class="s5">Wealth Management</span></p>
-<p class="p27"><span class="s5">Integrated strategies that orchestrate your investments, cash flow, and long-term goals into a unified, living plan.</span></p>
-<p class="p25"><span class="s5">02</span></p>
-<p class="p6"><span class="s3"></span><br></p>
-<p class="p26"><span class="s5">Investment Advisory</span></p>
-<p class="p27"><span class="s5">Data-driven portfolio construction tailored to your risk tolerance, time horizon, and financial aspirations.</span></p>
-<p class="p25"><span class="s5">03</span></p>
-<p class="p6"><span class="s3"></span><br></p>
-<p class="p26"><span class="s5">Estate Planning</span></p>
-<p class="p27"><span class="s5">Preserve and transfer your wealth across generations with precision — protecting what you've built for those you love.</span></p>
-<p class="p11"><span class="s3">VIEW ALL SERVICES</span></p>
-<h2 style="margin: 0.0px 0.0px 12.0px 0.0px; font: 40.0px 'Helvetica Neue'; color: #ffffff; -webkit-text-stroke: #ffffff"><span class="s3">Ready to move </span><span class="s4">Onward</span><span class="s3">?</span></h2>
-<p class="p29"><span class="s3">Schedule a confidential consultation with a senior advisor today.</span></p>
-<p class="p10"><span class="s3">BOOK A CONSULTATION</span></p>
-<p class="p1"><span class="s8">ONWARD WEALTH</span></p>
-<p class="p2"><span class="s8">SOLUTIONS</span></p>
-<p class="p27"><span class="s8">Providing fiduciary-grade financial advisory services to individuals, families, and businesses with clarity, integrity, and purpose.</span></p>
-<h4 style="margin: 0.0px 0.0px 20.0px 0.0px; font: 10.0px 'Helvetica Neue'; color: #bc993c; -webkit-text-stroke: #bc993c"><span class="s8">COMPANY</span></h4>
-<ul class="ul1">
-  <li class="li29"><span class="s9"></span><span class="s8">Home</span></li>
-  <li class="li29"><span class="s9"></span><span class="s8">About Us</span></li>
-  <li class="li29"><span class="s9"></span><span class="s8">Our Services</span></li>
-  <li class="li29"><span class="s9"></span><span class="s8">Contact</span></li>
-</ul>
-<h4 style="margin: 0.0px 0.0px 20.0px 0.0px; font: 10.0px 'Helvetica Neue'; color: #bc993c; -webkit-text-stroke: #bc993c"><span class="s8">SERVICES</span></h4>
-<ul class="ul1">
-  <li class="li29"><span class="s9"></span><span class="s8">Wealth Management</span></li>
-  <li class="li29"><span class="s9"></span><span class="s8">Investment Advisory</span></li>
-  <li class="li29"><span class="s9"></span><span class="s8">Retirement Planning</span></li>
-  <li class="li29"><span class="s9"></span><span class="s8">Estate Planning</span></li>
-</ul>
-<h4 style="margin: 0.0px 0.0px 20.0px 0.0px; font: 10.0px 'Helvetica Neue'; color: #bc993c; -webkit-text-stroke: #bc993c"><span class="s8">CONTACT</span></h4>
-<ul class="ul1">
-  <li class="li29"><span class="s9"></span><span class="s8">200 Park Avenue, Suite 1700</span></li>
-  <li class="li29"><span class="s9"></span><span class="s8">New York, NY 10166</span></li>
-  <li class="li29"><span class="s9"></span><span class="s8">+1 (212) 555-0178</span></li>
-  <li class="li29"><span class="s9"></span><span class="s8">hello@onwardwealth.com</span></li>
-</ul>
-<p class="p31"><span class="s8">© 2025 Onward Wealth Solutions. All rights reserved.</span></p>
-<p class="p31"><span class="s8">SEC Registered Investment Advisor  |  Member FINRA/SIPC</span></p>
+
+<!-- NAV -->
+<nav>
+  <a class="logo" href="#" onclick="showPage('landing')">Onward <span>Wealth Solutions</span></a>
+  <ul class="nav-links">
+    <li><a onclick="showPage('landing')" id="nav-landing" class="active">Home</a></li>
+    <li><a onclick="showPage('offer')" id="nav-offer">What We Offer</a></li>
+    <li><a onclick="showPage('about')" id="nav-about">About Us</a></li>
+    <li><a onclick="showPage('contact')" id="nav-contact">Contact</a></li>
+  </ul>
+  <button class="nav-cta" onclick="showPage('contact')">Schedule a Call</button>
+</nav>
+
+<!-- ═══════════════════════════════ LANDING PAGE ═══════════════════════════════ -->
+<div id="page-landing" class="page active">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-content">
+      <span class="hero-eyebrow">Trusted Financial Guidance Since 2004</span>
+      <h1>Your Wealth.<br><em>Intelligently</em><br>Managed.</h1>
+      <p class="hero-sub">We partner with individuals and families to build resilient financial futures — through meticulous planning, strategic investment, and deeply personalized counsel at every stage of life.</p>
+      <div class="hero-actions">
+        <button class="btn-primary" onclick="showPage('offer')">Explore Our Services</button>
+        <button class="btn-outline" onclick="showPage('contact')">Book a Consultation</button>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <div class="stat-num">$2.4B+</div>
+          <div class="stat-label">Assets Under Guidance</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">20+</div>
+          <div class="stat-label">Years of Excellence</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">1,400+</div>
+          <div class="stat-label">Families Served</div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-emblem">
+        <svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+              <stop offset="0%" stop-color="#c9a84c" stop-opacity="0.15"/>
+              <stop offset="100%" stop-color="#c9a84c" stop-opacity="0"/>
+            </radialGradient>
+          </defs>
+          <circle cx="200" cy="200" r="190" fill="url(#glow)"/>
+          <!-- Outer ring -->
+          <g class="ring-outer">
+            <circle cx="200" cy="200" r="170" fill="none" stroke="#c9a84c" stroke-width="0.5" stroke-dasharray="4 8"/>
+            <circle cx="200" cy="30" r="4" fill="#c9a84c"/>
+            <circle cx="200" cy="370" r="4" fill="#c9a84c"/>
+            <circle cx="30" cy="200" r="4" fill="#c9a84c"/>
+            <circle cx="370" cy="200" r="4" fill="#c9a84c"/>
+          </g>
+          <!-- Inner ring -->
+          <g class="ring-inner">
+            <circle cx="200" cy="200" r="130" fill="none" stroke="rgba(201,168,76,0.3)" stroke-width="0.5" stroke-dasharray="2 12"/>
+          </g>
+          <!-- Center emblem -->
+          <circle cx="200" cy="200" r="90" fill="rgba(201,168,76,0.04)" stroke="rgba(201,168,76,0.4)" stroke-width="1"/>
+          <!-- Decorative cross lines -->
+          <line x1="200" y1="120" x2="200" y2="280" stroke="rgba(201,168,76,0.2)" stroke-width="0.5"/>
+          <line x1="120" y1="200" x2="280" y2="200" stroke="rgba(201,168,76,0.2)" stroke-width="0.5"/>
+          <!-- Diamond shape -->
+          <polygon points="200,140 250,200 200,260 150,200" fill="none" stroke="rgba(201,168,76,0.5)" stroke-width="1"/>
+          <!-- Inner diamond -->
+          <polygon points="200,165 225,200 200,235 175,200" fill="rgba(201,168,76,0.08)" stroke="#c9a84c" stroke-width="1.5"/>
+          <!-- Center dot -->
+          <circle cx="200" cy="200" r="6" fill="#c9a84c"/>
+          <!-- Text arc simulation with lines -->
+          <text font-family="'Montserrat', sans-serif" font-size="8" fill="rgba(201,168,76,0.5)" letter-spacing="6">
+            <textPath href="#circle-path">AURUM WEALTH ADVISORY · EST. 2004 ·</textPath>
+          </text>
+          <defs>
+            <path id="circle-path" d="M 200,200 m -155,0 a 155,155 0 1,1 310,0 a 155,155 0 1,1 -310,0"/>
+          </defs>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="section">
+    <span class="section-eyebrow">A Holistic Approach</span>
+    <h2 class="section-title">Every Dimension of Your<br><em>Financial Life</em>, Covered</h2>
+    <div class="gold-divider"></div>
+    <p class="section-desc">From protecting what you've built today to securing what your family will inherit tomorrow — our advisors bring precision and care to each chapter of your financial journey.</p>
+    <div class="features-grid">
+      <div class="feature-card">
+        <svg class="feature-icon" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M22 4L6 10v12c0 9.25 6.83 17.9 16 20 9.17-2.1 16-10.75 16-20V10L22 4z" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/>
+          <path d="M15 22l5 5 9-9" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <div class="feature-title">Life Insurance Planning</div>
+        <p class="feature-text">Comprehensive coverage strategies designed to protect your family and preserve your legacy with thoughtful, personalized policy structuring.</p>
+      </div>
+      <div class="feature-card">
+        <svg class="feature-icon" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="6" y="8" width="32" height="28" rx="1" stroke="currentColor" stroke-width="1.2"/>
+          <path d="M6 16h32M14 8v8M30 8v8" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+          <circle cx="22" cy="28" r="4" stroke="currentColor" stroke-width="1.2"/>
+          <path d="M22 24v-4M22 36v-4M14 28H10M34 28h-4" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+        </svg>
+        <div class="feature-title">Tax Diversification</div>
+        <p class="feature-text">Strategic allocation across tax-advantaged accounts and taxable vehicles to minimize lifetime tax burden and maximize after-tax wealth retention.</p>
+      </div>
+      <div class="feature-card">
+        <svg class="feature-icon" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="22" cy="22" r="16" stroke="currentColor" stroke-width="1.2"/>
+          <path d="M22 6v4M22 34v4M6 22h4M34 22h4" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+          <path d="M22 22l8-8M22 22l-6 8" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+        </svg>
+        <div class="feature-title">Investment Diversification</div>
+        <p class="feature-text">Sophisticated portfolio construction spanning asset classes, geographies, and risk profiles — balancing growth ambitions with preservation objectives.</p>
+      </div>
+      <div class="feature-card">
+        <svg class="feature-icon" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M8 36V20l14-12 14 12v16H8z" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/>
+          <rect x="16" y="26" width="12" height="10" stroke="currentColor" stroke-width="1.2"/>
+          <path d="M22 8v4" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+        </svg>
+        <div class="feature-title">Retirement Planning</div>
+        <p class="feature-text">Income modeling, withdrawal strategies, and lifestyle projections that ensure your retirement years unfold exactly as envisioned — with confidence and clarity.</p>
+      </div>
+      <div class="feature-card">
+        <svg class="feature-icon" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M22 6l4 10h10l-8 6 3 10-9-6-9 6 3-10-8-6h10z" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/>
+        </svg>
+        <div class="feature-title">Estate Planning</div>
+        <p class="feature-text">Thoughtful wealth transfer structures, trusts, and beneficiary strategies that honor your intentions and protect the assets you've spent a lifetime building.</p>
+      </div>
+      <div class="feature-card">
+        <svg class="feature-icon" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M10 36l6-16 6 8 6-20 6 28" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <div class="feature-title">Holistic Wealth Strategy</div>
+        <p class="feature-text">An integrated, living financial plan that evolves with your life — binding all pillars of wealth management into one coherent, adaptive roadmap.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRUST BAND -->
+  <div class="trust-band">
+    <div class="trust-item">
+      <div class="trust-num">98%</div>
+      <div class="trust-label">Client Retention Rate</div>
+    </div>
+    <div class="trust-divider"></div>
+    <div class="trust-item">
+      <div class="trust-num">$2.4B</div>
+      <div class="trust-label">Assets Under Guidance</div>
+    </div>
+    <div class="trust-divider"></div>
+    <div class="trust-item">
+      <div class="trust-num">1,400+</div>
+      <div class="trust-label">Families Served</div>
+    </div>
+    <div class="trust-divider"></div>
+    <div class="trust-item">
+      <div class="trust-num">20+</div>
+      <div class="trust-label">Years of Excellence</div>
+    </div>
+    <div class="trust-divider"></div>
+    <div class="trust-item">
+      <div class="trust-num">CFP®</div>
+      <div class="trust-label">Certified Advisors</div>
+    </div>
+  </div>
+
+  <!-- CTA BANNER -->
+  <div class="cta-banner" style="margin-top: 5rem;">
+    <div class="cta-text">
+      <h3>Begin Your Journey to Financial Clarity</h3>
+      <p>Schedule a complimentary 30-minute discovery call with one of our senior advisors.</p>
+    </div>
+    <button class="btn-primary" onclick="showPage('contact')">Schedule a Free Call</button>
+  </div>
+
+</div>
+
+<!-- ═══════════════════════════════ WHAT WE OFFER ═══════════════════════════════ -->
+<div id="page-offer" class="page">
+
+  <div class="offer-hero">
+    <span class="section-eyebrow">Our Services</span>
+    <h2 class="section-title" style="font-size: clamp(2.5rem, 4vw, 4rem);">What We <em>Offer</em></h2>
+    <div class="gold-divider" style="margin: 1.5rem auto 2rem;"></div>
+    <p class="section-desc" style="margin: 0 auto; text-align: center; max-width: 560px;">Five interconnected disciplines, one comprehensive philosophy: that true financial wellbeing emerges from planning every dimension of your wealth in harmony.</p>
+  </div>
+
+  <div class="services-list">
+
+    <!-- 01 Life Insurance -->
+    <div class="service-item">
+      <div class="service-left">
+        <div class="service-number">01</div>
+        <div class="service-name">Life Insurance</div>
+        <div class="service-tag">Protection & Legacy</div>
+      </div>
+      <div class="service-right">
+        <p class="service-desc">Life insurance is far more than a death benefit — it is the cornerstone of a complete financial plan. We analyze your complete picture: income, debts, dependents, estate goals, and business interests to architect a coverage solution that eliminates vulnerability and creates opportunity. Our advisors specialize in term, whole life, universal life, and indexed universal life policies, deploying each strategically based on your unique circumstances and long-term objectives.</p>
+        <ul class="service-points">
+          <li>Term life insurance for income replacement</li>
+          <li>Whole life & permanent coverage strategies</li>
+          <li>Cash value accumulation planning</li>
+          <li>Business succession & key-person insurance</li>
+          <li>Survivorship life for estate liquidity</li>
+          <li>Policy review & optimization audits</li>
+          <li>Life insurance in irrevocable trusts (ILIT)</li>
+          <li>Long-term care hybrid solutions</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- 02 Tax Diversification -->
+    <div class="service-item">
+      <div class="service-left">
+        <div class="service-number">02</div>
+        <div class="service-name">Tax Diversification</div>
+        <div class="service-tag">Efficiency & Optimization</div>
+      </div>
+      <div class="service-right">
+        <p class="service-desc">Tax diversification is the art of positioning your wealth across accounts taxed differently — today, tomorrow, or never — so that no single tax environment can undermine your financial security. We construct a deliberate mix of pre-tax, post-tax, and tax-exempt accounts, then map out a strategic withdrawal sequence designed to minimize your lifetime tax burden. The goal is not tax avoidance but tax intelligence: keeping more of every dollar you earn and invest.</p>
+        <ul class="service-points">
+          <li>Roth IRA conversion planning</li>
+          <li>Traditional vs. Roth account balancing</li>
+          <li>After-tax brokerage optimization</li>
+          <li>Tax-loss harvesting strategies</li>
+          <li>Qualified Opportunity Zone investments</li>
+          <li>Charitable giving & donor-advised funds</li>
+          <li>Health Savings Account (HSA) maximization</li>
+          <li>Tax-bracket management across life stages</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- 03 Investment Diversification -->
+    <div class="service-item">
+      <div class="service-left">
+        <div class="service-number">03</div>
+        <div class="service-name">Investment Diversification</div>
+        <div class="service-tag">Growth & Resilience</div>
+      </div>
+      <div class="service-right">
+        <p class="service-desc">Markets are unpredictable. Portfolios need not be. We build investment strategies grounded in evidence-based principles, spanning multiple asset classes, sectors, and geographies to smooth volatility and capture growth across economic cycles. Our approach goes beyond stock-bond allocation: we evaluate alternative investments, private equity, real assets, and factor-based strategies to construct portfolios that align your risk tolerance with your financial timeline and income needs.</p>
+        <ul class="service-points">
+          <li>Asset allocation modeling & rebalancing</li>
+          <li>Domestic & international equity strategies</li>
+          <li>Fixed income laddering & bond selection</li>
+          <li>Alternative investments & private equity</li>
+          <li>Real estate investment vehicles (REITs)</li>
+          <li>Factor-based & ESG investing</li>
+          <li>Risk tolerance assessment & alignment</li>
+          <li>Concentrated stock position management</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- 04 Retirement Planning -->
+    <div class="service-item">
+      <div class="service-left">
+        <div class="service-number">04</div>
+        <div class="service-name">Retirement Planning</div>
+        <div class="service-tag">Security & Freedom</div>
+      </div>
+      <div class="service-right">
+        <p class="service-desc">Retirement planning is not a single event — it is a decades-long process of accumulation, transition, and distribution. We help you define what retirement means to you, then build the financial architecture to make it possible. From maximizing employer-sponsored plan contributions in your working years, to engineering a sustainable withdrawal strategy that accounts for longevity, inflation, and healthcare costs, we ensure your income never outlasts your lifestyle.</p>
+        <ul class="service-points">
+          <li>401(k), 403(b), IRA contribution optimization</li>
+          <li>Monte Carlo retirement income projections</li>
+          <li>Social Security claiming strategies</li>
+          <li>Pension analysis & income modeling</li>
+          <li>Required Minimum Distribution (RMD) planning</li>
+          <li>Sequence-of-returns risk mitigation</li>
+          <li>Healthcare & Medicare cost planning</li>
+          <li>Early retirement & FIRE pathway strategies</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- 05 Estate Planning -->
+    <div class="service-item">
+      <div class="service-left">
+        <div class="service-number">05</div>
+        <div class="service-name">Estate Planning</div>
+        <div class="service-tag">Legacy & Transfer</div>
+      </div>
+      <div class="service-right">
+        <p class="service-desc">Your estate plan is your final statement of intention — the document that determines who inherits your wealth, how they receive it, and whether it arrives intact. We work alongside estate attorneys to integrate your financial plan with legal structures designed to minimize estate taxes, avoid probate, provide for loved ones with special needs, and ensure your charitable wishes are honored. Estate planning is not for the wealthy alone; it is for anyone who cares about what happens to what they've built.</p>
+        <ul class="service-points">
+          <li>Will & trust structure coordination</li>
+          <li>Revocable & irrevocable trust strategies</li>
+          <li>Beneficiary designation review & alignment</li>
+          <li>Estate tax minimization strategies</li>
+          <li>Annual gifting & exclusion planning</li>
+          <li>Generation-skipping transfer planning</li>
+          <li>Special needs trust coordination</li>
+          <li>Charitable remainder & lead trusts</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- CTA -->
+  <div class="cta-banner">
+    <div class="cta-text">
+      <h3>Not Sure Where to Start?</h3>
+      <p>Our advisors will help you identify which services matter most for your situation.</p>
+    </div>
+    <button class="btn-primary" onclick="showPage('contact')">Talk to an Advisor</button>
+  </div>
+
+</div>
+
+<!-- ═══════════════════════════════ ABOUT US ═══════════════════════════════ -->
+<div id="page-about" class="page">
+
+  <div class="offer-hero">
+    <span class="section-eyebrow">Our Story</span>
+    <h2 class="section-title" style="font-size: clamp(2.5rem, 4vw, 4rem);">Built on <em>Trust.</em><br>Driven by Purpose.</h2>
+    <div class="gold-divider" style="margin: 1.5rem auto 2rem;"></div>
+  </div>
+
+  <div class="about-grid">
+    <div class="about-content">
+      <span class="section-eyebrow">Who We Are</span>
+      <h3 class="section-title" style="font-size: 2rem;">Two Decades of<br><em>Dedicated Counsel</em></h3>
+      <div class="gold-divider"></div>
+      <p class="section-desc" style="margin-bottom: 1.5rem;">Founded in 2004, Aurum Wealth Advisory was born from a simple but powerful conviction: that every individual deserves the same quality of financial guidance once reserved for the ultra-wealthy. We set out to change that — and we have spent twenty years making good on that promise.</p>
+      <p class="section-desc" style="margin-bottom: 1.5rem;">We are fiduciaries. That means we are legally and ethically bound to act in your best interest — not ours. No commissions. No hidden incentives. Just transparent, fee-only advice grounded in your goals and values.</p>
+      <p class="section-desc">Today, our team of Certified Financial Planners® serves over 1,400 families across the country, managing more than $2.4 billion in assets with the same personal attention and intellectual rigor that defined our earliest client relationships.</p>
+
+      <div class="values-grid">
+        <div class="value-card">
+          <div class="value-title">Fiduciary Integrity</div>
+          <p class="value-text">We are legally obligated to put your interests first — always and without exception.</p>
+        </div>
+        <div class="value-card">
+          <div class="value-title">Fee-Only Transparency</div>
+          <p class="value-text">Our compensation is never tied to product sales. No commissions. No conflicts.</p>
+        </div>
+        <div class="value-card">
+          <div class="value-title">Evidence-Based Advice</div>
+          <p class="value-text">Every recommendation is grounded in research, data, and decades of empirical experience.</p>
+        </div>
+        <div class="value-card">
+          <div class="value-title">Deep Personalization</div>
+          <p class="value-text">No two clients receive the same plan. Your life is unique; your strategy should be too.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="about-visual">
+      <div class="about-frame">
+        <p class="about-quote">"Wealth is not about having a lot of money — it's about having a lot of options. Our job is to give you both."</p>
+        <div class="about-quote-attr">— Richard Harmon, Founder & CEO</div>
+        <div style="height: 2rem;"></div>
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; border-top: 1px solid rgba(201,168,76,0.15); padding-top: 2rem;">
+          <div>
+            <div style="font-family: 'Cormorant Garamond', serif; font-size: 2rem; color: var(--gold); font-weight: 600;">CFP®</div>
+            <div style="font-size: 0.65rem; color: var(--text-muted); letter-spacing: 0.1em; text-transform: uppercase; margin-top: 0.2rem;">Certified Advisors</div>
+          </div>
+          <div>
+            <div style="font-family: 'Cormorant Garamond', serif; font-size: 2rem; color: var(--gold); font-weight: 600;">NAPFA</div>
+            <div style="font-size: 0.65rem; color: var(--text-muted); letter-spacing: 0.1em; text-transform: uppercase; margin-top: 0.2rem;">Member Firm</div>
+          </div>
+          <div>
+            <div style="font-family: 'Cormorant Garamond', serif; font-size: 2rem; color: var(--gold); font-weight: 600;">SEC</div>
+            <div style="font-size: 0.65rem; color: var(--text-muted); letter-spacing: 0.1em; text-transform: uppercase; margin-top: 0.2rem;">Registered Advisor</div>
+          </div>
+          <div>
+            <div style="font-family: 'Cormorant Garamond', serif; font-size: 2rem; color: var(--gold); font-weight: 600;">A+</div>
+            <div style="font-size: 0.65rem; color: var(--text-muted); letter-spacing: 0.1em; text-transform: uppercase; margin-top: 0.2rem;">BBB Accredited</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- TEAM -->
+  <div class="team-section">
+    <span class="section-eyebrow" style="text-align: center; display: block;">The People Behind the Plan</span>
+    <h3 class="section-title" style="text-align: center; font-size: 2rem;">Meet Our <em>Senior Advisors</em></h3>
+    <div class="team-grid">
+      <div class="team-card">
+        <div class="team-avatar">RH</div>
+        <div class="team-name">Richard Harmon</div>
+        <div class="team-role">Founder & CEO · CFP®</div>
+        <p class="team-bio">With 28 years in personal finance, Richard founded Aurum with a mission to democratize elite financial planning. He specializes in estate strategy and complex high-net-worth planning.</p>
+      </div>
+      <div class="team-card">
+        <div class="team-avatar">ML</div>
+        <div class="team-name">Margaret Lyle</div>
+        <div class="team-role">Director of Investments · CFA®</div>
+        <p class="team-bio">Margaret leads our investment committee, bringing 22 years of institutional portfolio management experience and a disciplined, evidence-based investment philosophy to every client portfolio.</p>
+      </div>
+      <div class="team-card">
+        <div class="team-avatar">JC</div>
+        <div class="team-name">James Chen</div>
+        <div class="team-role">Head of Tax Strategy · CPA · CFP®</div>
+        <p class="team-bio">James architets tax-efficient wealth strategies for business owners and high-income professionals, combining CPA-level tax expertise with comprehensive financial planning acumen.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- CTA -->
+  <div class="cta-banner">
+    <div class="cta-text">
+      <h3>Ready to Work Together?</h3>
+      <p>Your first consultation is always complimentary — no obligation, no pressure.</p>
+    </div>
+    <button class="btn-primary" onclick="showPage('contact')">Get in Touch</button>
+  </div>
+
+</div>
+
+<!-- ═══════════════════════════════ CONTACT US ═══════════════════════════════ -->
+<div id="page-contact" class="page">
+
+  <div class="offer-hero">
+    <span class="section-eyebrow">Get in Touch</span>
+    <h2 class="section-title" style="font-size: clamp(2.5rem, 4vw, 4rem);">Let's Start a <em>Conversation</em></h2>
+    <div class="gold-divider" style="margin: 1.5rem auto 2rem;"></div>
+    <p class="section-desc" style="margin: 0 auto; text-align: center;">Whether you're just beginning to plan or looking for a second opinion on an existing strategy, we welcome the opportunity to learn about your goals.</p>
+  </div>
+
+  <div class="contact-layout">
+
+    <!-- INFO -->
+    <div>
+      <span class="section-eyebrow">Our Office</span>
+      <h3 class="section-title" style="font-size: 1.8rem; margin-bottom: 2rem;">We're Here<br><em>For You</em></h3>
+
+      <div class="contact-detail">
+        <div class="contact-icon">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/>
+            <circle cx="12" cy="9" r="2.5"/>
+          </svg>
+        </div>
+        <div>
+          <div class="contact-detail-label">Office Address</div>
+          <div class="contact-detail-value">1440 Peachtree Street NE, Suite 820<br>Atlanta, Georgia 30309</div>
+        </div>
+      </div>
+
+      <div class="contact-detail">
+        <div class="contact-icon">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8 19.79 19.79 0 01.04 1.18 2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92v2z"/>
+          </svg>
+        </div>
+        <div>
+          <div class="contact-detail-label">Phone</div>
+          <div class="contact-detail-value">(404) 820-5500<br>Toll-Free: 1-888-AURUM-WA</div>
+        </div>
+      </div>
+
+      <div class="contact-detail">
+        <div class="contact-icon">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+            <polyline points="22,6 12,13 2,6"/>
+          </svg>
+        </div>
+        <div>
+          <div class="contact-detail-label">Email</div>
+          <div class="contact-detail-value">hello@aurumwealth.com<br>advisors@aurumwealth.com</div>
+        </div>
+      </div>
+
+      <div class="contact-detail">
+        <div class="contact-icon">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <circle cx="12" cy="12" r="10"/>
+            <polyline points="12,6 12,12 16,14"/>
+          </svg>
+        </div>
+        <div>
+          <div class="contact-detail-label">Office Hours</div>
+          <div class="contact-detail-value">Monday – Friday: 8:00 AM – 6:00 PM ET<br>Saturday: By appointment only</div>
+        </div>
+      </div>
+
+      <div style="margin-top: 2rem; padding: 1.5rem; border: 1px solid rgba(201,168,76,0.15); background: rgba(201,168,76,0.03);">
+        <div style="font-size: 0.65rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--gold); margin-bottom: 0.8rem;">Our Commitment</div>
+        <p style="font-size: 0.78rem; color: var(--text-muted); line-height: 1.8;">All consultations are strictly confidential. We will never share your information with third parties, and our initial discovery session carries absolutely no obligation.</p>
+      </div>
+    </div>
+
+    <!-- FORM -->
+    <div class="contact-form">
+      <div class="form-title">Schedule a Consultation</div>
+      <p class="form-sub">Complete the form below and a senior advisor will reach out within one business day to confirm your preferred time.</p>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label class="form-label">First Name</label>
+          <input class="form-input" type="text" placeholder="Richard">
+        </div>
+        <div class="form-group">
+          <label class="form-label">Last Name</label>
+          <input class="form-input" type="text" placeholder="Harmon">
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label class="form-label">Email Address</label>
+        <input class="form-input" type="email" placeholder="richard@example.com">
+      </div>
+
+      <div class="form-group">
+        <label class="form-label">Phone Number</label>
+        <input class="form-input" type="tel" placeholder="(404) 000-0000">
+      </div>
+
+      <div class="form-group">
+        <label class="form-label">Area of Interest</label>
+        <select class="form-select">
+          <option value="" disabled selected>Select a service area</option>
+          <option>Life Insurance Planning</option>
+          <option>Tax Diversification</option>
+          <option>Investment Diversification</option>
+          <option>Retirement Planning</option>
+          <option>Estate Planning</option>
+          <option>Comprehensive Financial Planning</option>
+          <option>Not sure — I'd like guidance</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label class="form-label">Approximate Asset Range (Optional)</label>
+        <select class="form-select">
+          <option value="" disabled selected>Select a range</option>
+          <option>Under $250,000</option>
+          <option>$250,000 – $500,000</option>
+          <option>$500,000 – $1 million</option>
+          <option>$1M – $5 million</option>
+          <option>$5M+</option>
+          <option>Prefer not to say</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label class="form-label">Tell Us About Your Goals</label>
+        <textarea class="form-textarea" placeholder="Share a bit about where you are financially and what you're hoping to achieve. There are no wrong answers."></textarea>
+      </div>
+
+      <button class="btn-primary" style="width: 100%; padding: 1rem;" onclick="handleSubmit()">Submit Inquiry</button>
+
+      <p style="font-size: 0.65rem; color: var(--text-muted); margin-top: 1rem; text-align: center; line-height: 1.7;">By submitting, you agree to our Privacy Policy. We will never share your information.</p>
+    </div>
+
+  </div>
+
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-logo">Onward Wealth Solutions</div>
+  <ul class="footer-links">
+    <li><a onclick="showPage('landing')">Home</a></li>
+    <li><a onclick="showPage('offer')">Services</a></li>
+    <li><a onclick="showPage('about')">About</a></li>
+    <li><a onclick="showPage('contact')">Contact</a></li>
+  </ul>
+  <div class="footer-copy">© 2026 Onward Wealth Solutions. Investment advisory services offered through registered entities. All rights reserved.</div>
+</footer>
+
+<script>
+  function showPage(id) {
+    document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+    document.querySelectorAll('.nav-links a').forEach(a => a.classList.remove('active'));
+    document.getElementById('page-' + id).classList.add('active');
+    document.getElementById('nav-' + id).classList.add('active');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+  function handleSubmit() {
+    const btn = event.target;
+    btn.textContent = 'Thank You — We\'ll Be in Touch.';
+    btn.style.background = 'rgba(201,168,76,0.2)';
+    btn.style.color = 'var(--gold)';
+    btn.style.border = '1px solid var(--gold)';
+    btn.disabled = true;
+  }
+
+  // Highlight active nav on load
+  document.getElementById('nav-landing').classList.add('active');
+</script>
+
 </body>
 </html>
